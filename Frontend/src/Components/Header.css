@@ -1,0 +1,62 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f97316; /* Orange color */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Buttons container */
+.header .buttons {
+    display: flex;
+    gap: 0.75rem;
+}
+
+/* Button style */
+.header button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.header button:hover {
+    color: #ffedd5; /* Light orange */
+}
+
+/* Login Button */
+.header .login-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: white;
+    color: #f97316;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.header .login-button:hover {
+    background-color: #ffedd5;
+}
+
+.dark .header .login-button {
+    background-color: #374151;
+    color: #f97316;
+}
+
+.dark .header .login-button:hover {
+    background-color: #4b5563;
+}
