@@ -158,12 +158,12 @@ body.dark {
 .feature-box h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  text-align: center; /* ✅ Center align heading */
+  text-align: center; 
 }
 
 .feature-box p {
   font-size: 1rem;
-  text-align: center; /* ✅ Center align paragraph */
+  text-align: center; 
 }
 
 .feature-box:hover {
@@ -171,13 +171,13 @@ body.dark {
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* ✅ Remove any pseudo-elements causing background issues */
+
 .feature-box::before,
 .feature-box::after {
   content: none;
 }
 
-/* ✅ Fix parent container background */
+
 .features-container {
   background-color: transparent !important;
 }

@@ -74,8 +74,8 @@ function App() {
                 </div>
 
                 <div className="feature-box">
-                    <h2>Guest Management</h2>
-                    <p>Keep track of RSVPs and ensure seamless communication with guests.</p>
+                    <h2>Vendor Management</h2>
+                    <p>Keep track of Events and ensure seamless communication with Vendors.</p>
                 </div>
 
                 <div className="feature-box">
